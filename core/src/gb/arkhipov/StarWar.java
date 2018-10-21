@@ -21,7 +21,7 @@ public class StarWar extends ApplicationAdapter {
 		Gdx.gl.glClearColor(0.2f, 0.5f, 0.2f, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
-		batch.draw(img, 100, 100);
+		batch.draw(img, 300, 200);
 		batch.end();
 	}
 	
